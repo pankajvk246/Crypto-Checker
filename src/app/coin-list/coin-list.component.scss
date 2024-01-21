@@ -44,31 +44,35 @@
     width: 100px;
     height: 200px;
 }
-img{
+
+img {
     width: 70px;
     margin: 0 auto;
 }
-h5{
+
+h5 {
     font-weight: 500;
 }
-p{
+
+p {
     font-weight: 700;
 }
 
 table {
     width: 100%;
-  }
-  
-  .mat-mdc-form-field {
+}
+
+.mat-mdc-form-field {
     font-size: 14px;
     width: 100%;
-  }
-  
-  td, th {
-    width: 25%;
-  }
+}
 
-  :host ::ng-deep .mat-sort-header-content {
+td,
+th {
+    width: 25%;
+}
+
+:host ::ng-deep .mat-sort-header-content {
     color: #fff;
 }
 
